@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Kaggle credentials
+kaggle.json
+
+# Data files (if they are too large for version control)
+data/
+
+# Model files
+models/*.pkl
+
+# Environment
+.env
+.venv
+env/
+venv/
