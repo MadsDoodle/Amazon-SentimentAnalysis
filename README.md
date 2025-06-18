@@ -62,17 +62,18 @@ graph TD
     C --> D[Save Reviews.csv to data/raw/]
 
     D --> E[Run 2_train_model.py]
-    E --> F[Clean & Preprocess Text]
+    E --> F[Clean and Preprocess Text]
     F --> G[TF-IDF Vectorization]
     G --> H[Train Logistic Regression Model]
-    H --> I[Save model.pkl & transformer.pkl to models/]
-    I --> J[Evaluate Model & Save Confusion Matrix]
+    H --> I[Save model.pkl and transformer.pkl to models/]
+    I --> J[Evaluate Model and Save Confusion Matrix]
 
-    J --> K[Run app.py (Streamlit UI)]
+    J --> K[Run app.py via Streamlit UI]
     K --> L[User Inputs Review]
-    L --> M[Load model.pkl & transformer.pkl]
+    L --> M[Load model.pkl and transformer.pkl]
     M --> N[Predict Sentiment]
     N --> O[Display Sentiment Output]
+
 ```
 ### 💡 Simplified Usage
 
